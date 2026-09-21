@@ -1,0 +1,9 @@
+# Keep local/private material out of this public project
+.env
+.env.*
+!.env.example
+private/
+secrets/
+*.key
+*.pem
+.DS_Store
